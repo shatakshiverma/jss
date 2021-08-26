@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9d7d479bd60d4ce6ab6d8e06c5b630a8" Name="Diagram1">
+        <EntityTypeShape EntityType="chetu_dotnetModel.City" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="chetu_dotnetModel.Country" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="chetu_dotnetModel.State" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <AssociationConnector Association="chetu_dotnetModel.FK__City__StateID__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="chetu_dotnetModel.FK__State__CountryID__4BAC3F29" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="chetu_dotnetModel.customer" Width="1.5" PointX="0.75" PointY="3.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
